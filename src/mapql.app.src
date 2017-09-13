@@ -1,0 +1,14 @@
+{application, mapql,
+ [
+  {description, ""},
+  {vsn, "0.9"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { mapql_app, []}},
+  {included_applications, []},
+  {modules, []},
+  {env, []}
+ ]}.
